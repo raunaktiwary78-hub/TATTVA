@@ -1,0 +1,33 @@
+*{box-sizing:border-box}
+body.admin-body{margin:0;background:#05080d;color:#f4f0e7;font-family:Inter,Arial,sans-serif;min-height:100vh}
+.admin-brand{display:flex;align-items:center;gap:10px}
+.admin-brand .mark{width:32px;height:32px;border:1px solid #d3b36d;border-radius:50%;display:grid;place-items:center;color:#dfc17b;font-size:14px}
+.admin-brand b{letter-spacing:4px;font-size:14px}
+.admin-brand small{display:block;font-size:8px;letter-spacing:2px;color:#8e949a}
+
+/* Login */
+.admin-login-card{max-width:360px;margin:14vh auto;padding:36px 32px;background:#0b0f14;border:1px solid #252b31;border-radius:10px}
+.admin-form{display:flex;flex-direction:column;gap:12px;margin-top:22px}
+.admin-form label{font-size:10px;letter-spacing:1px;color:#9ca3a9}
+.admin-form input{background:#05080d;border:1px solid #2c333a;color:#f4f0e7;padding:11px 12px;border-radius:6px;font-size:14px}
+.admin-form input:focus{outline:1px solid #d3b36d}
+.admin-form button,.admin-msg-actions button,.admin-header-right button{background:#e7c675;color:#090b0d;border:0;padding:11px 16px;border-radius:6px;font-size:11px;font-weight:700;letter-spacing:1px;cursor:pointer}
+.admin-msg-actions .danger{background:#3a1f22;color:#f2a6ab}
+.admin-header-right button{background:transparent;border:1px solid #3a4046;color:#c7cdd2}
+.admin-error{background:#2a1416;border:1px solid #5c2a2e;color:#f2a6ab;padding:10px 12px;border-radius:6px;font-size:12px;line-height:1.6}
+.admin-error code{background:#05080d;padding:2px 6px;border-radius:4px}
+
+/* Dashboard */
+.admin-header{display:flex;justify-content:space-between;align-items:center;padding:18px 5vw;border-bottom:1px solid #1c2127;background:#070b11}
+.admin-header-right{display:flex;align-items:center;gap:16px;font-size:12px;color:#aeb4b9}
+.admin-main{padding:36px 5vw 80px;max-width:900px;margin:0 auto}
+.admin-main h1{font:500 28px "Playfair Display",Georgia,serif;color:#f4f0e7;margin-bottom:24px}
+.admin-msg{border:1px solid #20262c;border-radius:8px;padding:18px 20px;margin-bottom:14px;background:#0a0e13}
+.admin-msg.unread{border-color:#7f673d}
+.admin-msg-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:13px;color:#c7cdd2}
+.admin-msg-head a{color:#d8b96f;text-decoration:none}
+.admin-msg-date{margin-left:auto;color:#7d848a;font-size:11px}
+.admin-msg p{color:#b7bcc1;font-size:13px;line-height:1.7;margin:12px 0}
+.admin-msg-actions{display:flex;gap:10px}
+.badge{background:#e7c675;color:#090b0d;font-size:9px;font-weight:700;letter-spacing:1px;padding:3px 7px;border-radius:10px}
+.admin-empty{color:#8b9096;font-size:13px}
